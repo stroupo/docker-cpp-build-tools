@@ -15,6 +15,7 @@ run \
     ninja-build \
     python3 \
     python3-pip \
+    libboost-all-dev \
   && rm -rf /var/lib/apt/lists/* \
   && pip3 install \
     meson
