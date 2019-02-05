@@ -1,4 +1,4 @@
-from lyrahgames/gcc-cmake:latest
+from stroupo/gcc-cmake:latest
 
 label maintainer="markuspawellek@gmail.com"
 
@@ -7,7 +7,7 @@ arg BUILD_DATE
 label \
   org.label-schema.build-date=$BUILD_DATE \
   org.label-schema.vcs-ref=$VCS_REF \
-  org.label-schema.vcs-url="https://github.com/lyrahgames/docker-cpp-build-tools.git"
+  org.label-schema.vcs-url="https://github.com/stroupo/docker-cpp-build-tools.git"
 
 run \
   apt-get update && \
